@@ -1,0 +1,2092 @@
+/* fonts */
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Italic;
+    src: url(../fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+body {
+    font-family: Poppins-Regular;
+}
+
+/* .mySection {
+    height: 100vh;
+    position: relative;
+}
+
+.myfooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* mainWrapper */
+/* .mainWrapper {
+    position: relative;
+    height: 100vh;
+}
+.myfooter {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+} */
+
+select {
+    appearance: none;
+}
+
+/* SCROLLBAR CSS  */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #4D4D4D;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #B3B3B3;
+}
+
+/* SCROLLBAR CSS  */
+.tablee::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.tablee::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.tablee::-webkit-scrollbar-thumb {
+    background: #4D4D4D;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.tablee::-webkit-scrollbar-thumb:hover {
+    background: #B3B3B3;
+}
+
+
+.tablee tbody tr td a {
+    color: #0071BC;
+    text-decoration: none;
+}
+
+.myrefClientBox {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 17px -7px black;
+    width: 100%;
+    height: 126px;
+    margin: 10px 0
+}
+
+.myrefClientBox .myimgesec2 {
+    width: 21%;
+    position: relative;
+}
+
+.myrefClientBox .imgesec2 {
+    width: 21%;
+    position: relative;
+}
+
+.myrefClientBox .myimgesec2::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/callbg1.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+}
+
+.myrefClientBox .myimgesec2 .iimg {
+    width: 47px;
+    height: 40px;
+    margin-top: 41px;
+    margin-left: 43px;
+    margin-right: 43px;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+.myrefClientBox .imgesec2::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/callbg2.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+}
+
+.myrefClientBox .imgesec20 {
+    width: 21%;
+    position: relative;
+}
+
+.myrefClientBox .imgesec20::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/callbg2.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+}
+
+.myrefClientBox .imgesec21 {
+    width: 21%;
+    position: relative;
+}
+
+.myrefClientBox .imgesec21::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/callbg2.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+}
+
+.myrefClientBox .myreferenceClientText {
+    width: 79%;
+    padding: 10px 15px 10px 20px;
+}
+
+.myreferenceClientText h5 {
+    font-family: Poppins-SemiBold;
+    margin: 0;
+    font-size: 17px;
+}
+
+.myreferenceClientText p {
+    font-family: Poppins-Light;
+    color: #999999;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.myreferenceClientText a {
+    color: #0071BC;
+    font-family: Poppins-Light;
+    font-size: 12px;
+}
+
+.myrefClientBox1 .imgesec2::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/callbg1.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+}
+
+.myrefClientBox1 .imgesec20::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/callbg1.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+}
+
+.myreferenceClientText a .refcA {
+    margin-right: 5px;
+}
+
+.myrefClientBox1 .imgesec3::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/agentCallbg.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 124px;
+    height: 125px;
+}
+
+
+/* Sign In page */
+.mainContianer {
+    width: 40%;
+    height: 700px;
+    background-color: #030344;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.mainContianer .paddingContainer {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    position: relative;
+}
+
+.mainContianer .paddingContainer .infocontianer {
+    width: 100%;
+    height: 100%;
+    background-color: #030344;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mainContianer .paddingContainer .infocontianer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #fff;
+    width: 90%;
+    margin: auto auto;
+    height: 80%;
+}
+
+.mainContianer .paddingContainer .infocontianer::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/backgroundImge.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.mainContianer .paddingContainer .myinfocontianer {
+    width: 100%;
+    height: 100%;
+    background-color: #030344;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mainContianer .paddingContainer .myinfocontianer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #fff;
+    width: 90%;
+    margin: auto auto;
+    height: 34%;
+}
+
+.mainContianer .paddingContainer .myinfocontianer::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/backgroundImge.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/*  */
+.mainContianer .paddingContainer .cpinfocontianer {
+    width: 100%;
+    height: 100%;
+    background-color: #030344;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mainContianer .paddingContainer .cpinfocontianer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #fff;
+    width: 90%;
+    margin: auto auto;
+    height: 52%;
+}
+
+.mainContianer .paddingContainer .cpinfocontianer::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/backgroundImge.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/*  */
+.profileImage {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    z-index: 1;
+    position: relative;
+}
+
+.inputboxes {
+    position: relative;
+    z-index: 1;
+    margin-top: 6.7rem;
+}
+
+.emailinfo {
+    border-bottom: 1px solid #ffff;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8px;
+}
+
+.emailinfo input {
+    background-color: transparent;
+    border: none;
+    color: #ffff;
+    outline: none;
+    z-index: 1;
+    width: 88%;
+    margin-left: auto;
+    font-family: Poppins-Regular;
+}
+
+.passwordInfo {
+    border-bottom: 1px solid #ffff;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8px;
+    margin-top: 3rem;
+}
+
+.passwordInfo input {
+    background-color: transparent;
+    border: none;
+    color: #ffff;
+    outline: none;
+    z-index: 1;
+    width: 88%;
+    margin-left: auto;
+    font-family: Poppins-Regular;
+}
+
+.inputboxes .emailIcon,
+.passIcon {
+    width: 19px;
+}
+
+.remberbox {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.remberbox label {
+    font-family: Poppins-Italic;
+    color: #fff;
+    cursor: pointer;
+}
+
+.remberbox .remb {
+    font-family: Poppins-Regular;
+    color: #fff;
+}
+
+.inputboxes .signinbtn {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.inputboxes .signinbtn button {
+    background-color: #030344;
+    border: 2px solid #fff;
+    font-family: Poppins-Regular;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+.infocontianer .pricavypolicyInput {
+    margin-top: 11rem;
+}
+
+.infocontianer .pricavypolicyInput .signinbtn {
+    margin-top: 193px;
+}
+
+.myinfocontianer .pricavypolicyInput {
+    margin-top: 11rem;
+}
+
+.myinfocontianer .pricavypolicyInput .signinbtn {
+    margin-top: 193px;
+}
+
+.myinfocontianer .mypricavypolicyInput {
+    margin-top: 12rem;
+}
+
+.myinfocontianer .mypricavypolicyInput .signinbtn {
+    margin-top: 161px;
+}
+
+
+/*  */
+.cpinfocontianer .pricavypolicyInput {
+    margin-top: 10rem;
+}
+
+.cpinfocontianer .pricavypolicyInput .signinbtn {
+    margin-top: 98px;
+}
+
+.cpinfocontianer .mypricavypolicyInput {
+    margin-top: 12rem;
+}
+
+.cpinfocontianer .mypricavypolicyInput .signinbtn {
+    margin-top: 93px;
+}
+
+
+.bcAgent {
+    justify-content: center;
+    text-align: center;
+    margin-top: 11px;
+    color: #fff;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    position: relative;
+}
+
+.bcAgent a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bcAgent a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bcAgent p {
+    border-bottom: 1px solid #fff;
+    width: 116px;
+    padding-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bcAinputBo {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 26px;
+}
+
+.bcAinputBo input {
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-family: Poppins-Regular;
+}
+
+.bcAinputBo input::placeholder {
+    color: #fff;
+    font-family: Poppins-Regular;
+}
+
+.infoheading .backIcon {
+    width: 20px;
+    height: 15px;
+}
+
+.infoheading p {
+    font-family: 'Poppins-Regular';
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoheading {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+
+.for-mainContianer-cstm-height {
+    height: 100vh;
+}
+
+.infocontianer .myInputbox {
+    margin-top: 5rem;
+}
+
+.checkbox:checked:before {
+    background-color: green;
+}
+
+
+/* header */
+.headerSection {
+    padding-top: 2rem;
+    position: relative;
+}
+
+.profileDropdown {
+    display: none;
+}
+
+.profileDropdown2 {
+    display: block;
+}
+
+.profileInfo,
+.ballIcon,
+.userName {
+    cursor: pointer;
+}
+
+.headerSection .profileDropdown {
+    background-color: #fff;
+    padding: 15px 41px 15px;
+    box-shadow: 0px 0px 14px -9px black;
+    border-radius: 10px;
+    position: absolute;
+    top: 74px;
+    right: 0;
+    font-family: 'Poppins-SemiBold';
+    font-size: 14px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.headerSection .profileDropdown p {
+    margin-bottom: 0;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 14px solid #fff;
+    position: absolute;
+    top: -12px;
+    right: 14px;
+}
+
+.headerSection .userImage {
+    width: 35px;
+    height: 35px;
+}
+
+.headerSection .userName {
+    margin-left: 10px;
+}
+
+.headerSection .userName span {
+    font-family: Poppins-Regular;
+    color: #333333;
+}
+
+.headerSection .userName label {
+    font-family: Poppins-Bold;
+    color: #333333;
+    cursor: pointer;
+}
+
+.ballIcon {
+    margin-right: 10px;
+    width: 22px;
+    height: 18px;
+    margin-top: 4px;
+}
+
+.ballIcon img {
+    object-fit: contain;
+}
+
+/* header  */
+
+/* adivsor */
+.referClientSect {
+    padding-top: 3rem;
+}
+
+.advisorSection {
+    background-color: #F2F2F2;
+}
+
+.referclientbox {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px -7px black;
+    z-index: 0;
+}
+
+.referenceClientText {
+    position: relative;
+    padding: 8px 20px;
+}
+
+.referclientbox .imgesec {
+    position: relative;
+}
+
+.referclientbox .imgesec20 {
+    position: relative;
+}
+
+.referclientbox .imgesec21 {
+    position: relative;
+}
+
+.referclientbox .imgesec2 {
+    position: relative;
+}
+
+.referclientbox .imgesec3 {
+    position: relative;
+}
+
+.referclientbox .imgesec4 {
+    position: relative;
+}
+
+.imgesec .iimg {
+    width: 55px;
+    height: 43px;
+    margin-top: 37px;
+    margin-left: 37px;
+    margin-right: 46px;
+    z-index: 1;
+    position: relative;
+}
+
+.imgesec2 .iimg {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 48px;
+    margin-right: 43px;
+    z-index: 1;
+    position: relative;
+}
+
+.imgesec3 .iimg {
+    width: 46px;
+    height: 43px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 46px;
+    z-index: 1;
+    position: relative;
+}
+
+.imgesec4 .iimg {
+    width: 50px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 39px;
+    margin-right: 42px;
+    z-index: 1;
+    position: relative;
+}
+
+.referclientbox .imgesec::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/callbg1.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 133px;
+    height: 126px;
+    border-radius: 11px;
+}
+
+.referclientbox .imgesec2::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/callbg2.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+}
+
+.referclientbox .imgesec3::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/agentContactUsbg.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.referclientbox .imgesec4::before {
+    content: "";
+    position: absolute;
+    background: url(../images/1x/callbg1.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.referenceClientText h5 {
+    font-family: Poppins-SemiBold;
+    font-family: Poppins-SemiBold;
+    margin: 0;
+    font-size: 17px;
+    /* margin-top: 18px; */
+}
+
+.referenceClientText p {
+    font-family: Poppins-Light;
+    color: #999999;
+    font-size: 12px;
+    margin: 6px 0 7px;
+}
+
+.referenceClientText a {
+    color: #0071BC;
+    font-family: Poppins-Light;
+    font-size: 12px;
+}
+
+.referenceClientText .refcA {
+    margin-right: 5px;
+}
+
+/* table */
+.table>:not(caption)>*>* {
+    border-bottom-width: 0px !important;
+}
+
+.tableContainer .tablee table {
+    width: 100%;
+}
+
+.tableContainer {
+    background-color: #fff;
+    padding: 50px 60px;
+    border-radius: 30px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.tableContainer .tablee table tr,
+td {
+    border-style: none;
+    border-bottom-width: 0px;
+}
+
+.tablHeading h5 {
+    color: #333333;
+    font-family: Poppins-SemiBold;
+    font-size: 25px;
+}
+
+.tablee {
+    height: 600px;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+
+
+.tablee table thead {
+    background-color: #F2F2F2;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 3px;
+}
+
+.tablee table thead tr {
+    border-radius: 10px;
+}
+
+#exampleModal .tablee table thead tr td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#exampleModal .tablee table thead tr td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* .myfooter {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+} */
+
+#exampleModal .tablee table thead tr td {
+    padding-bottom: 15px;
+}
+
+.modaltablee {
+    height: 450px;
+}
+
+#exampleModal .modal-footer {
+    border: none;
+}
+
+#exampleModal .modal-content {
+    border-radius: 15px;
+}
+
+#exampleModal .tablee table thead tr td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tablee table tbody tr {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tablee table thead tr td {
+    color: #030344;
+    font-family: Poppins-SemiBold;
+    font-size: 15px;
+    padding-bottom: 13px;
+}
+
+.tablee table thead tr td:first-child {
+    padding-left: 10px;
+}
+
+.tablee table tbody tr td:first-child {
+    padding-left: 10px;
+}
+
+.tablee table tbody tr td {
+    color: #4D4D4D;
+    font-family: Poppins-Regular;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 18px;
+}
+
+.tablee table tbody tr td button {
+    background-color: #22B573;
+    color: #fff;
+    font-family: Poppins-Regular;
+    font-size: 11px;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+
+.editdlt .icon1 {
+    margin-right: 70px;
+}
+
+/* table tbody {
+    display: block;
+    height: 600px;
+    overflow: auto;
+
+} */
+
+/* table thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+} */
+
+/* adivsorDetails */
+.clientInput {
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 22px;
+    width: 100%;
+    margin: 20px 0;
+    color: #030344;
+    outline: none;
+    font-family: Poppins-Regular;
+}
+
+.clientInput1 {
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 22px;
+    width: 100%;
+    margin: 20px 0;
+    color: #030344;
+    outline: none;
+    font-family: Poppins-Regular;
+    height: 150px;
+    resize: none;
+}
+
+.clientInputmain {
+    position: relative;
+}
+
+.clientInputmain img {
+    position: absolute;
+    top: 44px;
+    right: 20px;
+    width: 15px;
+    height: 10px;
+}
+
+.statusDropDown {
+    position: relative;
+}
+
+.statusDropDown img {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    width: 15px;
+    height: 10px;
+}
+
+.clientInputmain select {
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 22px;
+    width: 100%;
+    margin: 20px 0;
+    color: #030344;
+    outline: none;
+    font-family: Poppins-Regular;
+}
+
+.clientInput1::placeholder {
+    color: #030344;
+    font-family: Poppins-Regular;
+}
+
+.clientInput::placeholder {
+    color: #030344;
+    font-family: Poppins-Regular;
+}
+
+.clibtn1 button {
+    background-color: #22B573;
+    color: #fff;
+    font-family: Poppins-Regular;
+    font-size: 11px;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+
+#exampleModal .modal-header {
+    border-bottom: none;
+
+}
+
+.clibtn2 a {
+    text-decoration: none;
+}
+
+.clibtn2 {
+    background-color: transparent;
+    color: #030344;
+    font-family: Poppins-Regular;
+    text-decoration: none;
+}
+
+.searhpen {
+    border: 1px solid #66666654;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 15px 0 25px;
+    font-family: 'Poppins-Regular';
+}
+
+.searhpen input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 97%;
+    font-family: 'Poppins-Regular';
+
+}
+
+/* .modaltablee table tbody {
+    display: block;
+    height: 330px;
+    overflow: auto;
+} */
+
+.clibtn2 button {
+    background-color: #22B573;
+    color: #fff;
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    padding: 9px 50px;
+}
+
+.clibtn3 button {
+    background-color: #22B573;
+    color: #fff;
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    padding: 10px 45px;
+    margin-top: 15px;
+}
+
+/* adivser contact Us */
+.adviserContactUs {
+    position: relative;
+    overflow: hidden;
+}
+
+.adviserContactUs::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/1x/contactBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 100%; */
+    height: 85vh;
+}
+
+.adviserContactUs2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.adviserContactUs2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/1x/agentContactUsbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 100%; */
+    height: 85vh;
+}
+
+.contactUsHeading,
+.contactUsFrom,
+.sendBtn {
+    position: relative;
+    left: 23%;
+    /* padding-top: 3rem; */
+}
+
+.contactUsHeading {
+    padding-top: 3rem;
+}
+
+.contactUsFrom input {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 22px;
+    width: 54%;
+    outline: none;
+    padding: 10px 15px;
+    margin: 25px 0;
+    color: #fff;
+    font-family: Poppins-Regular;
+}
+
+.contactUsFrom input::placeholder {
+    color: #fff;
+    font-family: Poppins-Regular;
+}
+
+.contactUsFrom textarea {
+    background: transparent;
+    /* border: 1px solid #fff; */
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 22px;
+    width: 54%;
+    outline: none;
+    padding: 10px 15px;
+    margin: 25px 0;
+    color: #fff;
+    font-family: Poppins-Regular;
+    min-height: 180px;
+    max-height: 180px;
+    resize: none;
+
+}
+
+.contactUsFrom textarea::placeholder {
+    color: #fff;
+    font-family: Poppins-Regular;
+}
+
+.sendBtn button {
+    background-color: #22B573;
+    border: none;
+    outline: none;
+    padding: 10px 45px;
+    border-radius: 25px;
+    color: #fff;
+    font-family: 'Poppins-SemiBold';
+    font-size: 13px;
+    margin-bottom: 6rem;
+}
+
+.contactUsHeading h5 {
+    font-family: 'Poppins-SemiBold';
+    color: #fff;
+    font-size: 22px;
+}
+
+/* agend  */
+.myNewBtn .myDeclient {
+    background-color: #C1272D;
+    color: #fff;
+    font-family: Poppins-Regular;
+    font-size: 11px;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.myNewBtn .accepted {
+    background-color: #22b57345;
+    color: #22B573;
+    font-family: Poppins-Regular;
+    font-size: 11px;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    padding: 10px 33px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.myNewBtn .declined {
+    background-color: #c1272da1;
+    color: #c1272d;
+    font-family: Poppins-Regular;
+    font-size: 11px;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    padding: 10px 33px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* agent */
+.tablee {
+    margin-top: 20px;
+}
+
+.tablee .col-lg-3 label {
+    color: #030344;
+    font-family: Poppins-SemiBold;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+.tablee .col-lg-9 p {
+    font-family: 'Poppins-Regular';
+    color: #4D4D4D;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.tablee tbody tr td:last-child {
+    width: 185px;
+}
+
+.agentClientTable,
+.agentClientheading {
+    padding: 0 30px;
+}
+
+.myagentClientTable {
+    height: auto;
+}
+
+.footer {
+    padding: 5px 20px;
+}
+
+#addNoteexampleModal .modal-content {
+    border-radius: 15px;
+}
+
+.myStatus {
+    padding: 20px 30px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+.myStatus .statusHeading h5 {
+    font-family: 'Poppins-SemiBold';
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.myStatus .statusDropDown {
+    /* margin-left: 95px; */
+    width: 215px;
+}
+
+.myStatus .statusDropDown select {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 35px 15px 15px;
+    width: 100%;
+    margin: 0px 0;
+    color: #576262;
+    outline: none;
+    font-family: Poppins-Regular;
+}
+
+.statusOneB {
+    border-bottom: 2px solid #99999940;
+    padding: 5px 0 20px;
+    margin-top: 9px;
+    align-items: center;
+}
+
+/* .statusOneB:last-child {
+    border-bottom: none;
+} */
+.noteHeading h4 {
+    font-size: 20px;
+    color: #0071BC;
+    font-family: Poppins-Regular;
+}
+
+.agentNote {
+    margin-top: 2rem;
+}
+
+.agentNote p {
+    color: #4D4D4D;
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.statusName label {
+    font-family: 'Poppins-Medium';
+    font-size: 15px;
+    color: #4D4D4D;
+    width: 196px;
+}
+
+.agentAdress {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.agentAdress .adresB {
+    margin: 0 60px;
+}
+
+.agentAdress .adresB label {
+    font-family: 'Poppins-Regular';
+    color: #4D4D4D;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.agentAdress .adresB input {
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 8px 18px;
+    color: #4d4d4d;
+    font-size: 15px;
+    font-family: 'Poppins-Regular';
+}
+
+#addNoteexampleModal .modal-body textarea {
+    height: 188px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    font-family: 'Poppins-Light';
+    color: #4D4D4D;
+    font-size: 14px;
+    resize: none;
+}
+
+#addNoteexampleModal .modal-header {
+    border: none;
+    border-top: none;
+    padding: 15px 1rem 0;
+}
+
+#addNoteexampleModal .modal-footer {
+    border: none;
+    border-top: none;
+    padding: 0px 1rem 15px;
+}
+
+#addNoteexampleModal .modal-title {
+    font-family: 'Poppins-SemiBold';
+    color: #333333;
+    font-size: 19px;
+}
+
+#addNoteexampleModal .modal-body {
+    padding: 13px 1rem 5px;
+}
+
+#addNoteexampleModal .modal-footer button {
+    background-color: #22B573;
+    color: #fff;
+    font-family: 'Poppins-SemiBold';
+    font-size: 13px;
+    padding: 10px 50px;
+    ;
+    outline: none;
+    border: none;
+    border-radius: 46px;
+}
+
+/* footer */
+.footer .copyWrite p {
+    font-family: Poppins-Medium;
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer .copyWrite a {
+    text-decoration: none;
+}
+
+.footer .pricavy p {
+    font-family: Poppins-Medium;
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer .pricavy a {
+    text-decoration: none;
+}
+
+.mybackIcon {
+    width: 45px;
+    height: 30px;
+    filter: invert(1);
+    margin-top: 27px;
+}
+
+.privacyC {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 60px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 2.5rem auto;
+}
+
+.priheading h5 {
+    margin-bottom: 25px;
+    color: #333333;
+    font-family: Poppins-SemiBold;
+    font-size: 25px;
+}
+
+.privacyPara p {
+    font-family: 'Poppins-Regular';
+    color: gray;
+    font-size: 15px;
+}
+
+/* profileDropdown */
+.profileDropdown a {
+    text-decoration: none;
+    color: unset;
+}
+
+.mystatusDropdown input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 35px 15px 15px;
+    width: 100%;
+    margin: 0px 0;
+    color: #576262;
+    outline: none;
+    font-family: Poppins-Regular;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 2560px) {
+    .adviserContactUs::before {
+        height: 46vh;
+    }
+
+    .adviserContactUs2::before {
+        height: 46vh;
+    }
+
+    .adviserContactUs {
+        margin-top: 3rem;
+    }
+
+    .adviserContactUs2 {
+        margin-top: 3rem;
+    }
+
+    .tableContainer {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .agentClientTable {
+        overflow: hidden;
+    }
+
+    .statusName label {
+        font-family: 'Poppins-Medium';
+        font-size: 15px;
+        color: #4D4D4D;
+        width: 240px;
+    }
+}
+
+/* standerd */
+@media only screen and (max-width: 1920px) {
+    .adviserContactUs::before {
+        height: 69vh;
+    }
+
+    .adviserContactUs2::before {
+        height: 69vh;
+    }
+}
+
+/* 1600 */
+@media only screen and (max-width: 1600px) {
+    .adviserContactUs::before {
+        height: 82vh;
+    }
+
+    .adviserContactUs2::before {
+        height: 82vh;
+    }
+}
+
+/* 1440 */
+@media only screen and (max-width: 1440px) {
+    .referenceClientText p {
+        margin: 9px 0 8px !important;
+    }
+
+    .adviserContactUs::before {
+        height: 93%;
+    }
+
+    .adviserContactUs2::before {
+        height: 93%;
+    }
+}
+
+/* 1366 */
+@media only screen and (max-width: 1366px) {
+    .mainContianer {
+        width: 50%;
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .referenceClientText p {
+        margin: 0px 0 0px;
+    }
+
+    .referenceClientText h5 {
+        font-size: 13px;
+    }
+
+    .adviserContactUs::before {
+        height: 90%;
+    }
+
+    .adviserContactUs2::before {
+        height: 90%;
+    }
+
+    .myrefClientBox .myimgesec2 {
+        width: 24%;
+        position: relative;
+    }
+
+    .myrefClientBox .imgesec2 {
+        width: 24%;
+        position: relative;
+    }
+
+    .imgesec3 .iimg {
+        margin-top: 50px;
+    }
+
+    .imgesec4 .iimg {
+        margin-top: 52px;
+    }
+
+    .imgesec2 .iimg {
+        margin-top: 50px;
+    }
+    .mainContianer.for-cstm-100-height .paddingContainer .infocontianer {
+        padding-bottom: 1rem;
+    }
+    div.clientBox {
+    height: 140px;
+}
+}
+
+/* Ipad Pro */
+@media only screen and (max-width:1024px) {
+    .referenceClientText p {
+        margin: 0px 0 0px;
+    }
+
+    .referenceClientText h5 {
+        font-family: Poppins-SemiBold;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .tableContainer {
+        padding: 50px 20px;
+    }
+
+    .mainContianer {
+        width: 80%;
+        height: 700px;
+        margin-top: 13rem;
+    }
+
+    .mainContianer.for-cstm-100-height {
+        height: 100vh;
+        margin-top: 3rem;
+        overflow: auto;
+    }
+    .mainContianer.for-cstm-100-height .infocontianer .myInputbox {
+        margin-top: 15rem;
+    }
+
+    .mainContianer.for-cstm-100-height .paddingContainer .infocontianer {
+        padding-bottom: 1rem;
+    }
+
+    /* .mainContianer.for-cstm-100-height .inputboxes .signinbtn{
+        margin-bottom: 1rem;
+    } */
+    /* .mainContianer.for-cstm-100-height .infocontianer .myInputbox {
+        margin-top: 10rem;
+    } */
+
+    .adviserContactUs2::before {
+        height: 52vh;
+    }
+
+    .adviserContactUs::before {
+        height: 52vh;
+    }
+
+    .myreff .col-lg-4 {
+
+        width: 100%;
+    }
+
+    .referclientbox {
+        margin: 26px 0;
+    }
+
+    .myreff h5 {
+        margin: 5px 0;
+        font-size: 19px;
+    }
+
+    .myreff p {
+        margin: 0px 0 3px;
+        font-size: 17px;
+    }
+
+    .myrefClientBox .myimgesec2 {
+        width: 30%;
+        position: relative;
+    }
+
+    .myrefClientBox .imgesec2 {
+        width: 30%;
+        position: relative;
+    }
+
+    .myreferenceClientText p {
+        font-size: 11px;
+        margin: 2px 0;
+    }
+
+    .privacyC {
+        padding: 50px 20px;
+    }
+
+}
+
+.newTd {
+    min-width: 150px
+}
+
+/* 820 */
+@media only screen and (max-width:820px) {
+    .referclientbox {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0px 0px black;
+        z-index: 0;
+        margin: 15px 0;
+    }
+
+    .contactUsFrom input {
+        margin: 15px 0;
+    }
+
+    .referenceClientText h5 {
+        font-family: Poppins-SemiBold;
+        margin: 8px 0;
+        font-size: 18px;
+    }
+
+    .referenceClientText p {
+        font-size: 15px;
+    }
+
+    .agentClientTable {
+        display: block;
+        height: auto;
+    }
+
+    .statusName {
+        flex-direction: column;
+    }
+
+    .myStatus .statusDropDown {
+        margin-left: 0;
+    }
+
+    .agentAdress .adresB {
+        margin: 0;
+    }
+
+    .myrefClientBox .myimgesec2 {
+        width: 20%;
+        position: relative;
+    }
+
+    .myrefClientBox .imgesec2 {
+        width: 20%;
+        position: relative;
+    }
+}
+
+/* Ipad  */
+@media only screen and (max-width:768px) {
+    .mainContianer {
+        margin-top: 5rem;
+    }
+
+    .adviserContactUs::before {
+        height: 63vh;
+    }
+
+    .adviserContactUs2::before {
+        height: 63vh;
+    }
+}
+
+/* surface Duo */
+@media only screen and (max-width: 540px) {
+
+    /* .myfooter {
+        position: relative;
+    } */
+    .mainContianer {
+        margin-top: 2rem;
+    }
+
+    .mainContianer {
+        width: 95%;
+    }
+
+    .agentAdress {
+        flex-direction: column;
+    }
+
+    .agentAdress .adresB {
+        margin: 12px 0;
+    }
+
+    .adviserContactUs::before {
+        height: 83vh;
+    }
+
+    .adviserContactUs2::before {
+        height: 83vh;
+        background-size: cover;
+    }
+
+    .adviserContactUs::before {
+        background-size: cover;
+    }
+
+    .referenceClientText p {
+        font-size: 11px;
+    }
+
+    .contactUsHeading,
+    .contactUsFrom,
+    .sendBtn {
+        position: relative;
+        left: 4%;
+    }
+
+    .contactUsFrom input {
+        width: 90%;
+    }
+
+    .contactUsFrom textarea {
+        width: 90%;
+    }
+
+    .myreff p {
+        font-size: 14px;
+    }
+
+    .myrefClientBox .myreferenceClientText {
+        width: 75%;
+        padding: 10px 10px 5px 10px;
+    }
+
+    .myrefClientBox .imgesec2 {
+        width: 25%;
+    }
+
+    .myrefClientBox .myimgesec2 {
+        width: 25%;
+        position: relative;
+    }
+
+    .statusName label {
+        width: 210px;
+    }
+}
+
+/* /* iphone 678 plus  */
+@media only screen and (max-width: 414px) {
+    .mainContianer {
+        width: 100%;
+    }
+
+    .mainContianer {
+        margin-top: 1rem;
+        padding: 0.8rem;
+    }
+
+    .mainContianer .paddingContainer {
+        padding: 0.5rem;
+    }
+
+    .statusOneB {
+        flex-direction: column;
+    }
+
+    .mystatusOneB {
+        flex-direction: column;
+    }
+
+    .referenceClientText {
+        position: relative;
+        padding: 1px 20px;
+    }
+
+    .referenceClientText h5 {
+        font-family: Poppins-SemiBold;
+        margin: 1px 0;
+        font-size: 18px;
+    }
+
+    .mainContianer .paddingContainer .infocontianer::after {
+        height: 63%;
+    }
+
+    .myrefClientBox .imgesec2 {
+        width: 30%;
+    }
+
+    .imgesec2 .iimg {
+        margin-top: 48px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .myreferenceClientText h5 {
+        font-family: Poppins-SemiBold;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .myreferenceClientText p {
+        font-size: 11px;
+        margin: 2px 0;
+    }
+
+    .myrefClientBox .myreferenceClientText {
+        width: 75%;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .myrefClientBox .imgesec2 {
+        width: 32%;
+    }
+
+    .imgesec4 .iimg {
+        width: 60px;
+        height: 55px;
+        margin-top: 48px;
+        margin-left: 35px;
+        margin-right: 38px;
+    }
+
+    .imgesec3 .iimg {
+        width: 46px;
+        height: 43px;
+        margin-top: 49px;
+        margin-left: 44px;
+        margin-right: 43px;
+    }
+
+    .myrefClientBox .myimgesec2 {
+        width: 32%;
+        position: relative;
+    }
+
+    .cpinfocontianer .pricavypolicyInput {
+        margin-top: 12rem;
+    }
+
+    .mainContianer .paddingContainer .myinfocontianer::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: 1px solid #fff;
+        width: 90%;
+        margin: auto auto;
+        height: 43%;
+    }
+
+    .myinfocontianer .mypricavypolicyInput {
+        margin-top: 13rem;
+    }
+
+    .myinfocontianer .mypricavypolicyInput .signinbtn {
+        margin-top: 107px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .myrefClientBox .imgesec2 {
+        width: 35%;
+    }
+
+    .myrefClientBox .myimgesec2 {
+        width: 35%;
+        position: relative;
+    }
+
+    .adviserContactUs2::before {
+        height: 94vh;
+    }
+
+    .adviserContactUs::before {
+        height: 92vh;
+    }
+
+}
+
+.AdviserContactUsforheight.adviserContactUs2::before {
+    height: 90vh;
+}
+
+.myNewAdviserContactUs.adviserContactUs::before {
+    height: 90vh;
+}
+
+
+.statusNoteForhide {
+    display: none
+}
+
+
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper {
+    height: 100%;
+}
+
+
+.mainContianer .paddingContainer .infocontianer {
+    padding-bottom: 1px;
+}
